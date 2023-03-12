@@ -1,0 +1,60 @@
+@media (max-width: 450px) {
+  #navbar h1 {
+    float: none;
+    text-align: center;
+  }
+  #navbar ul {
+    float: none;
+  }
+  #navbar ul li {
+    width: 33.3%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  #navbar ul li a {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  #hero .hero-content {
+    padding-top: 80px;
+  }
+  #contact-info .box {
+    float: none;
+    width: unset;
+  }
+}
+
+@media (max-width: 680px) {
+  #home-experience {
+    height: 350px;
+  }
+  #home-experience .experience-img {
+    display: none;
+  }
+  #home-experience .experience-content {
+    float: none;
+    width: unset;
+  }
+}
+
+@media (max-width: 1050px) {
+  #features .box {
+    float: none;
+    width: unset;
+  }
+  #about-info {
+    height: unset;
+  }
+  #about-info .info-left {
+    padding-bottom: 40px;
+  }
+  #about-info .info-right,
+  #about-info .info-left {
+    float: none;
+    width: unset;
+  }
+}
